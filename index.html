@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+
+        
+    </header>
+
+    <main>
+
+        <div class="banner">
+            <!-- Optional banner image -->
+            <!-- <img src="banner-image.jpg" alt="Banner Image"> -->
+            <h1>Welcome to Dietition Planner & BMI Watcher</h1>
+            <p>Your Personalized Nutrition Advisor.</p>
+
+            <section class="about">
+                <h2>About Us</h2>
+                <p>At Dietitian Planner & BMI Watcher, we are dedicated to helping you achieve your health and fitness goals. Our mission is to provide you with the tools and resources you need to lead a healthier lifestyle, make informed dietary choices, and monitor your body mass index (BMI) effectively.</p>
+                <br>
+                <a href="#services">Learn More</a>
+            </section>
+    
+            <section class="Offer">
+                <h2>What we offer</h2>
+                <h3>Dietitian Planner:</h3>
+                <p>Our Dietitian Planner is designed to assist you in planning nutritious meals that suit your 
+                    dietary preferences and requirements. Whether you're looking to lose weight, gain muscle, 
+                    or simply maintain a healthy diet, our planner provides personalized meal recommendations 
+                    and helps you track your calorie intake.</p>
+                <h3>BMI Watcher:</h3>
+                <p>Monitoring your BMI is a key aspect of maintaining your health. Our BMI Watcher tool allows 
+                    you to calculate your BMI quickly and easily. By keeping track of your BMI over time, you 
+                    can make informed decisions about your fitness and nutrition regimen.</p>
+            </section>
+
+            <section class="joinus">
+                <h2>Join Us on Your Health Journey</h2>
+                <p>
+                    Whether you're just beginning your health and fitness journey or looking to fine-tune your existing routine, Dietitian Planner & BMI Watcher is here to support you. We invite you to explore our website, use our tools, and discover a wealth of resources to help you achieve your health and wellness goals.
+                    
+                    Thank you for choosing Dietitian Planner & BMI Watcher as your trusted partner on your path to a healthier and happier life. Together, we can make positive and lasting changes to your well-being.
+                    
+                    If you have any questions or feedback, please don't hesitate to contact us. We're here to assist you every step of the way.
+                    
+                    Feel free to customize this "About Us" section to match the specific goals, values, and features of your website.
+                    
+                    
+                    
+                    
+                    
+                    </p>
+            </section>
+
+
+
+        </div>
+
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service" id="custommeal">
+                
+                <h2>Custom Meal Plans</h2>
+                <p>We create customized meal plans tailored to your dietary preferences and goals.</p>
+            </div>
+            <div class="service">
+                
+                <h2>Healthy Recipes</h2>
+                <p>Explore our collection of delicious and healthy recipes for every meal.</p>
+            </div>
+            <div class="service">
+                
+                <h2>Nutrition Advice</h2>
+                <p>Get expert advice on your nutritional needs and make informed choices.</p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Feel free to contact us anytime.</p>
+            <a href="/ContactUs.html">Contact Us</a>
+        </section>
+
+    </main>
+
+
+
+
+
+    <div class="container"> 
+        <h1>BMI Calculator</h1>
+        <label for="h_input">Height (cm):</label>
+        <input id="h_input" type="number">
+        
+        <label for="w_input">Weight (kg):</label>
+        <input id="w_input" type="number">
+        
+
+        <button type="submit" onclick="Calculate()">Calculate BMI </button id="CalBMI">
+        
+        
+        <div class="bmi-value">
+            <h4>BMI Value:</h4>
+            <div id="bmi-output"></div>
+        </div>
+        <div class="status">
+            <h4>Status:</h4>
+            <div id="bmi-status"></div>
+        </div>   
+    </div>
+
+
+    <div class="length">
+        <h2>Length Converter</h2>
+        <p>Type a value in the Feet field to convert the value to cm:</p>
+
+        <p>
+        <label for="inputFeet">Feet:</label>
+        <input id="inputFeet" type="number" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </p>
+        <p>cm: <span id="outputcm"></span></p>
+    </div>
+
+
+
+
+
+    <footer>
+        <p>&copy; 2023 AI Dietitian</p>
+    </footer>
+
+
+    
+    
+
+</body>
+
+
+</html>
+

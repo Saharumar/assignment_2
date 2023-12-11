@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/pngtree-healthy-diet-whole-grains-poster-background-template-picture-image_1091861.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Styling for the navigation bar */
+header {
+
+    
+    background-color: #d8d788;
+    
+    /*color: white;*/
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #55c57a; /* Change to your desired hover color */
+}
+
+
+/* Apply basic styling to the form */
+form {
+    max-width: 400px;
+    margin-top: 100px;
+    margin-left: 700px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 30px 30px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #d8d788;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.about, .services, .contact {
+    margin-bottom: 40px;
+}
+
+.about a, .contact a {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.about a:hover, .contact a:hover {
+    background-color: #555;
+}
+
+.about{
+    text-align: left;
+}
+
+.offer {
+    text-align: justify;
+    
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #daa94dc4;
+    background-image: url(./kiwi-coctail-1447939_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 90px;
+    height: 200px;
+    
+}
+
+
+
+.container {
+    margin-left: 10px ;
+}
+
+.length {
+    margin-left: 10px;
+}
+
+
+
+
+
+footer {
+    margin-top: 5pc;
+    background-color:#d8d788;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.alert{
+    
+    background-color: #d8d788;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+    
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #daa94dc4;
+    
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-image: url(./flat-lay-2583213_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+  
+  h1 {
+    color: #000000;
+    
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .bmi-value, .status {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #bmi-output {
+    color: #007BFF;
+  }
+  
+  #bmi-status {
+    color: #009688;
+  }
+  
+
+  .length {
+    max-width: 400px;
+    
+    margin-top: 100px;
+    margin-left: 410px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:#f8f8f8dc;
+    
+    text-align: center;
+    border-radius: 60px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+    
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  span#outputcm {
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+
+  .banner {
+    background-color: #d8d788c7; /* Change the background color as needed */
+    color: #000000; /* Text color */
+    padding: 50px; /* Adjust padding to control the space inside the banner */
+    text-align: center; /* Center-align text */
+    margin-right: 500px;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+/* Styling for the banner image (optional) */
+
+
+.custommeal{
+    background-image: url(./fruits-1869132_1280.jpg);
+}

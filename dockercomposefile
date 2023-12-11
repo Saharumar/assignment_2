@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    image: your-dockerhub-username/your-web-app
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+
+  db:
+    image: your-database-image:tag
+    volumes:
+      - db_data:/var/lib/database
+
+volumes:
+  db_data:
